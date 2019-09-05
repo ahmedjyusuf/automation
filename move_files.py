@@ -18,4 +18,4 @@ for f in os.listdir(downloads):
         shutil.move(downloads + f, destination) # move the images to the destination folder
     else:
         print('no image files')
-        break
+        continue
