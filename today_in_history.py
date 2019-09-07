@@ -24,7 +24,7 @@ def check_date(site):
                 f_year = f_date[0]
                 f_date = f_date[2]
                 
-                #any article dated todays date from 2012 up to 2020
+                # any article dated todays date from 2012 up to 2020
                 if f_date == today: 
                     #print(f)
                     year_ago = int(year_now) - int(f_year)
